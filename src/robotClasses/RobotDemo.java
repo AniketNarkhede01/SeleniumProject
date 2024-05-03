@@ -32,6 +32,7 @@ public class RobotDemo {
 
 		driver.manage().window().maximize();
 
+
 		driver.get("https://tutorialsninja.com/demo/");
 
 		driver.findElement(By.name("search")).sendKeys("HP");
