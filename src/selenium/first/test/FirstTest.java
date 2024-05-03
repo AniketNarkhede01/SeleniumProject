@@ -16,6 +16,8 @@ public static void main(String[] args) throws InterruptedException {
 	String actualbrowserTitle=driver.getTitle();
 	String expectedBrowserTitle="google";
 	
+	System.out.println("Git Hub ");
+	
 	if(expectedBrowserTitle.equalsIgnoreCase(actualbrowserTitle)) 
 	{
 		System.out.println("PASSED: Browser Title validated");
